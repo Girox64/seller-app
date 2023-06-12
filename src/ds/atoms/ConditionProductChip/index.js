@@ -17,5 +17,5 @@ export default function ConditionProductChip({ value }) {
 }
 
 ConditionProductChip.propTypes = {
-  value: oneOf("new", "used"),
+  value: oneOf(["new", "used"]),
 };

@@ -7,7 +7,7 @@ export default function ProductImage({ row }) {
 
 ProductImage.propTypes = {
   row: shape({
-    condition: oneOf("new", "used"),
+    condition: oneOf(["new", "used"]),
     imageUrl: string,
     name: string,
   }),

@@ -45,6 +45,27 @@ We tend to use the Atomic Design approach while writing our components:
         /pages
 ```
 
+## User context
+
+It will handle user auth **and** sales channel selection
+
+```javascript
+const user = { isLoggedIn: true, salesChannel: "guid" };
+const App = ({}) => (
+  <UserContextProvider user={user}>
+    <Routes />
+  </UserContextProvider>
+);
+
+const Route = ({}) => {
+  const { isLoggedIn, salesChannel } = UserContext.useUser();
+
+  if (!isLoggedIn) return <Redirect />;
+
+  return <p>{salesChannel}</p>;
+};
+```
+
 ## Powered by CRA
 
 [CRA documentation](.docs/CRA.md).
