@@ -1,6 +1,6 @@
 import { arrayOf, shape, string } from "prop-types";
-import { Link, MenuList } from "./styles";
 import { Link as RRLink } from "react-router-dom";
+import { Link, MenuList } from "./styles";
 
 export default function Menu({ items }) {
   return (

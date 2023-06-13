@@ -1,9 +1,9 @@
 import { CssBaseline, ThemeProvider } from "@mui/material";
-import { RouterProvider } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "react-query";
+import { RouterProvider } from "react-router-dom";
 
-import theme from "./theme";
 import router from "./router";
+import theme from "./theme";
 
 const queryClient = new QueryClient();
 

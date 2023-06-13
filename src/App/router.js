@@ -1,8 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
 
-import { Layout } from "../ds/templates";
-import { ErrorPage, HomePage, OrdersPage, ProductsPage } from "../ds/pages";
 import { ProductRoute } from "../ds/molecules";
+import { ErrorPage, HomePage, OrdersPage, ProductsPage } from "../ds/pages";
+import { Layout } from "../ds/templates";
 
 export default createBrowserRouter([
   {
