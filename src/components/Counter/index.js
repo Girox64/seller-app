@@ -6,7 +6,7 @@ export default function Counter({ startValue = 0, step = 1 }) {
 
   return (
     <>
-      <p>{currentValue}</p>
+      <p role="marquee">{currentValue}</p>
       <button onClick={() => dec(step)}>-{step}</button>
       <button onClick={() => inc(step)}>+{step}</button>
     </>
