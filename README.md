@@ -45,6 +45,12 @@ We tend to use the Atomic Design approach while writing our components:
         /pages
 ```
 
+## Testing
+
+We will tend to use anytime/anywhere our custom `render` method to represent the technical context of our application.
+
+This `render` method is defined in : `/src/test-utils.js`
+
 ## Powered by CRA
 
 [CRA documentation](.docs/CRA.md).

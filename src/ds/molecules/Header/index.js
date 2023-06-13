@@ -1,5 +1,5 @@
-import { string } from "prop-types";
 import { AppBar, Link as MUILink, Toolbar, Typography } from "@mui/material";
+import { string } from "prop-types";
 import { Link } from "react-router-dom";
 
 export default function Header({ title, caption }) {
