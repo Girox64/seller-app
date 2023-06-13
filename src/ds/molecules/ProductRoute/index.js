@@ -2,6 +2,7 @@ import { ArrowBack } from "@mui/icons-material";
 import { CircularProgress, IconButton, Stack, Typography } from "@mui/material";
 import { Image } from "mui-image";
 import { Link, useParams } from "react-router-dom";
+
 import { useProducts } from "../../../hooks";
 
 // TODO : refactor Image and ProductImage
