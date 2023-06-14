@@ -45,6 +45,8 @@ We tend to use the Atomic Design approach while writing our components:
         /pages
 ```
 
+For all testing data, we use the ['/fixtures'](/fixtures).
+
 ## Testing
 
 We will tend to use anytime/anywhere our custom `render` method to represent the technical context of our application.

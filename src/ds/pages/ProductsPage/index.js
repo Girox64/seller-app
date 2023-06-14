@@ -52,7 +52,7 @@ export default function ProductsPage() {
 
   return (
     <Grid container>
-      <Grid sx={{ height: 600 }} xs={leftWidth}>
+      <Grid item sx={{ height: 600 }} xs={leftWidth}>
         <DataGrid
           loading={isLoading}
           columns={columns}

@@ -1,5 +1,5 @@
 import Header from ".";
-import { render, screen } from "../../../../test-utils";
+import { render, screen } from "../../../test-utils";
 
 describe("Header", () => {
   it("renders a clickable logo", () => {
